@@ -1,0 +1,74 @@
+.avatar{  overflow:hidden;   }
+
+.user-icon{
+  font-size:20px;  /* change font size should change size of icon */
+  float:left;
+ margin:1em; 
+  margin-left: 45%; /* remove this line to avoid float/margin */
+}
+.user-icon{
+  border-radius:4em;
+   border:1px solid skyblue;
+  height:6em; 
+  width:6em;  
+  background:none;padding:0.1em;  
+}
+
+.user-icon::before{
+  content:" "; 
+  display:block;
+  height:2em; 
+  width:2em;
+  background:skyblue;
+  position:relative; left:2em;
+  top:0.8em;
+  border-radius:2em;
+}
+.user-icon::after{
+  content:" "; display:block;
+  height:2em;width:4em;
+  background:skyblue;
+  position:relative; left:1em;top:1em;
+  border-radius:2em 2em 0 0;
+}
+.Maincontainer{
+    /* background: rgb(236, 201, 201); */
+    height: 200px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 30px;
+    
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.Name-info{
+    font-size: large;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+.Email-info{
+    font-size: large;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+.User-info{
+    font-size: large;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    margin-left: 24px;
+}
+.Name-info2{
+    margin-left: 30px;
+}
+.Email-info2{
+    margin-left: 105px;
+}
+.User-info2{
+   margin-left: 15px;
+}
+

@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Courier New', Courier, monospace; */
+    background: linear-gradient(120deg,#e0d1e7,#e0d1e7);
+    height: 100vh;
+    overflow: hidden;
+}
+.mainClass{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-bottom: 40px;
+    height: 95px;
+}
+.mainDev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -51px;
+}
+.dayandtime{
+    margin-top: -43px;
+}
+.presentBtn{
+    cursor: pointer;
+    margin-top: 50px ;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align:  center;
+    font-size: 30px;
+    color: #666666;
+    top: 30px;
+}
+.presentBtn {
+    color: #2691d9;
+    text-decoration: none;
+}
+.presentBtn :hover{
+    text-decoration: underline;
+}
+.leaveBtn{
+    cursor: pointer;
+    margin-top: 50px ;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align:  center;
+    font-size: 30px;
+    color: #666666;
+    top: 30px;
+    width: 125px;
+}
+.leaveBtn{
+    color: #2691d9;
+    text-decoration: none;
+}
+.viewtBtn{
+    cursor: pointer;
+    margin-top: 50px ;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align:  center;
+    font-size: 30px;
+    color: #0691b8;
+    top: 30px;
+    width:  125px;
+}
+.viewtBtn :hover{
+    color: #2691d9;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.mainbody{
+    position: absolute;
+    top: 150px;
+    left: 10px;
+}
+.date-input{
+    width: 135px;
+    height: 26px;
+    margin-left: 180px;
+    margin-right: 19px;
+}
+.day-input{
+    width: 135px;
+    height: 26px;
+    margin-left: 180px;
+    margin-right: 19px;
+}
+.date-label{
+    color: aliceblue;
+}
+h1{
+    color: black;
+}
+
+.presentBtn:disabled{
+    background-color: rgb(23, 17, 17);
+    color: aliceblue;
+}
+.leaveBtn:disabled{
+    background-color: rgb(39, 28, 28);
+    color: aliceblue;
+
+}
